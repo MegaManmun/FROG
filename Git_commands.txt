@@ -1,0 +1,19 @@
+1. Setup the name and email that will be attached to your commits and tags:
+
+$ git config --global user.name "Augustas Karpavicius"
+$ git config --global user.email "A.karpavicius@arcnl.nl"
+
+2. Sart a project: create a local repository, to initialise the current directory as a git repo:
+
+$ git init <directory>
+$ git clone <url>  # Download a remote repo (i.e. PRA)
+
+3. Add files to staging:
+
+$ git add <file>
+$ git add ./ git add --all  # Stage all files
+
+4. Commiting:
+
+$ git commit -m "commit message"  # Commit all staged files to git
+$ git commit -am "commit message"  # Add all changes made to tracked files and commit (without staging0
