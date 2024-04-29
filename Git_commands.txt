@@ -47,3 +47,14 @@ $ git tag <tag-name>  # Add a tag to current commit
 $ git checkout b  # Switch to the branche into which we merge the other branch (i.e. master)
 $ git merga a  # Merge branch a into branch b. Add --no-ff option for no-fast-forward merge
 $ git merge --squash a  # merge and squash all commits into the new commit
+
+7. Synchronizing 
+
+$ git remote add <alias> <url>  # Add a remote repository
+$ git remote add origin <url>  # SPecifies that you are adding a remote repository as an origin to your local Git repo
+$ git remote  # View all remote connections. Add -v flag to view url
+$ git remote remove <alias>  # Remove a connection
+$ git remote rename <old> <new>  # Rename a connection
+
+$ git push <alias>  # Upload local content to remote repository
+$ git push --set-upstream origin master  # push master branch to the origin url, and set it as the default remote branch
