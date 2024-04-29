@@ -1,7 +1,7 @@
 1. Setup the name and email that will be attached to your commits and tags:
 
 $ git config --global user.name "Augustas Karpavicius"
-$ git config --global user.email "A.karpavicius@arcnl.nl"
+$ git config --global user.email "karpavicius@arcnl.nl"
 
 2. Sart a project: create a local repository, to initialise the current directory as a git repo:
 
