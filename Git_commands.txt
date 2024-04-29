@@ -36,6 +36,7 @@ $ gitk  # Shows visualisation of different branches
 5. Branches:
 
 $ git branch  # List all local branches. Add -r flag to show all remote branches, -a flag to all branches.
+$ git branch -a  # To see al local and remote branches (-r to only see the remote branches)
 $ git branch <new-branch-name>  # Create a new branch
 $ git checkout <branch>  # Switch to a branch and update the working directory
 $ git checkout -b <new-branch-name>  # Create a new branch and switch to it
