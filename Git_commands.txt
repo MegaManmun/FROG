@@ -31,6 +31,8 @@ $ git log --oneline  # Shorter commit history without committer
 $ git diff  # Show changes to unstaged files. For changes to staged files, add --cached option
 $ git diff commit1_ID commit2_ID  # Show changes between two commits
 
+$ gitk  # Shows visualisation of different branches
+
 5. Branches:
 
 $ git branch  # List all local branches. Add -r flag to show all remote branches, -a flag to all branches.

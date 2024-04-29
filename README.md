@@ -4,6 +4,6 @@ Two files that are here are to process the spectrograms (frogograms) from from m
 
 # I introduce a change here to try out git status 
 
-# I introduce more change after creating a new branch called "try-out" (create conflict)
+# I introduce more change after creating a new branch called "try-out" (modify line for the conflict)
 
-# Added an emergency branch 
+# Added an emergency branch
