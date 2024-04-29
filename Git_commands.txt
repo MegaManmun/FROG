@@ -11,9 +11,31 @@ $ git clone <url>  # Download a remote repo (i.e. PRA)
 3. Add files to staging:
 
 $ git add <file>
-$ git add ./ git add --all  # Stage all files
+$ git add ./ git add --all/ git add -A  # Stage all files
 
-4. Commiting:
+4. Committing:
 
 $ git commit -m "commit message"  # Commit all staged files to git
-$ git commit -am "commit message"  # Add all changes made to tracked files and commit (without staging0
+$ git commit -am "commit message"  # Add all changes made to tracked files and commit (without staging)
+
+5. Reviewing your repository:
+
+$ ls  # list the files in the current directory
+
+$ git status  # List new or modified files not yet committed
+$ git status --short  # Show changes in a more compact way: ?? - Untracked, A - Staged, M - Modified, D - deleted
+
+$ git log  # List commit history with respective IDs
+$ git log --oneline  # Shorter commit history without committer
+
+$ git diff  # Show changes to unstaged files. For changes to staged files, add --cached option
+$ git diff commit1_ID commit2_ID  # Show changes between two commits
+
+5. Branches:
+
+$ git branch  # List all local branches. Add -r flag to show all remote branches, -a flag to all branches.
+$ git branch <new-branch-name>  # Create a new branch
+$ git checkout <branch>  # Switch to a branch and update the working directory
+$ git checkout -b <new-branch-name>  # Create a new branch and switch to it
+
+
