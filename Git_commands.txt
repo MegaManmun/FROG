@@ -37,5 +37,11 @@ $ git branch  # List all local branches. Add -r flag to show all remote branches
 $ git branch <new-branch-name>  # Create a new branch
 $ git checkout <branch>  # Switch to a branch and update the working directory
 $ git checkout -b <new-branch-name>  # Create a new branch and switch to it
+$ git branch -d <branch>  # Delete a branch (we would use -D if it doesn't matter whether the branch is merged or not)
+$ git tag <tag-name>  # Add a tag to current commit
 
+6. Merging and rebasing
 
+$ git checkout b  # Switch to the branche into which we merge the other branch (i.e. master)
+$ git merga a  # Merge branch a into branch b. Add --no-ff option for no-fast-forward merge
+$ git merge --squash a  # merge and squash all commits into the new commit
