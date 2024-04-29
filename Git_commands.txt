@@ -58,3 +58,12 @@ $ git remote rename <old> <new>  # Rename a connection
 
 $ git push <alias>  # Upload local content to remote repository
 $ git push --set-upstream origin master  # push master branch to the origin url, and set it as the default remote branch
+$ git push <alias> <branch>  # Upload to a branch (can then pull request)
+
+$ git fetch <alias>  # Fetch all branches from remote repository (no merge) (gets all the change history of a tracked branch/repo)
+$ git fetch <alias> <branch>  # Fetch a specific branch
+
+$ git pull <alias>  # Fetch the remote repository's copy of the current branch, then merge
+$ git pull --rebase <alias>  # Move (rebase) your local changes onto the top of new changes made to the remote repo(for clean, lienar history)
+
+
